@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * User: special
  * Date: 13-12-10
- * Time: 下午10:44
+ * Time: PM10:44
  * Mail: specialcyci@gmail.com
  */
 public class ResideMenu extends FrameLayout{
