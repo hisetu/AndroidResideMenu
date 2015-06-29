@@ -216,7 +216,6 @@ public class ResideMenu extends FrameLayout{
 
     /**
      * WARNING: It will be removed from v2.0.
-     * @return
      */
     @Deprecated
     public List<ResideMenuItem> getMenuItems() {
@@ -226,7 +225,6 @@ public class ResideMenu extends FrameLayout{
     /**
      * Return instances of menu items;
      *
-     * @return
      */
     public List<ResideMenuItem> getMenuItems(int direction) {
         if ( direction == DIRECTION_LEFT)
@@ -239,7 +237,6 @@ public class ResideMenu extends FrameLayout{
      * If you need to do something on closing or opening menu,
      * set a listener here.
      *
-     * @return
      */
     public void setMenuListener(OnMenuListener menuListener) {
         this.menuListener = menuListener;
@@ -320,7 +317,6 @@ public class ResideMenu extends FrameLayout{
     /**
      * return the flag of menu status;
      *
-     * @return
      */
     public boolean isOpened() {
         return isOpened;
@@ -376,7 +372,6 @@ public class ResideMenu extends FrameLayout{
      * @param target
      * @param targetScaleX
      * @param targetScaleY
-     * @return
      */
     private AnimatorSet buildScaleDownAnimation(View target,float targetScaleX,float targetScaleY){
 
@@ -398,7 +393,6 @@ public class ResideMenu extends FrameLayout{
      * @param target
      * @param targetScaleX
      * @param targetScaleY
-     * @return
      */
     private AnimatorSet buildScaleUpAnimation(View target,float targetScaleX,float targetScaleY){
 
@@ -454,7 +448,6 @@ public class ResideMenu extends FrameLayout{
      * which in ignored view list,return true;
      *
      * @param ev
-     * @return
      */
     private boolean isInIgnoredView(MotionEvent ev) {
         Rect rect = new Rect();
